@@ -1,0 +1,59 @@
+// Page: Header
+// -----------------------------------------------------------------------------
+
+.bg-black {
+  background-color: #2d2620;
+  color: white;
+}
+.sticky-top {
+  height: 70px;
+}
+.nav-item {
+  padding: 0 10px;
+  font-family: $secondary-font;
+  font-weight: bold;
+  & a {
+    color: $light-color !important;
+    &:hover {
+      color: $main-color !important;
+      transition: 0.5s;
+    }
+  }
+}
+
+.header-section {
+  position: relative;
+  text-align: center;
+  & .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center center;
+    background-repeat: repeat;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  & .content-header-section {
+    padding-top: 170px;
+  }
+}
+.sticky-top {
+  position: relative !important;
+}
+.breadcrumb {
+  background-color: transparent;
+  & a {
+    color: #bdbdbf;
+    font-size: 12px;
+    font-weight: 400;
+    &:hover {
+      text-decoration: none;
+      color: rgba(116, 116, 116, 1);
+    }
+  }
+}
+
+
+

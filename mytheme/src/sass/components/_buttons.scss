@@ -1,0 +1,85 @@
+.btn-transparent {
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  font-family: $main-font;
+  color: $light-color;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px 40px;
+  outline: none;
+  border-radius: 27px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: $light-color;
+  border-image: initial;
+  &:hover {
+    border-color: $main-color;
+    background-color: $main-color;
+  }
+}
+.btn-main {
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $main-font;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: $main-color;
+  color: black;
+  padding: 10px 40px;
+  outline: none;
+  border-radius: 2px;
+  border-width: 2px;
+  border-image: initial;
+  &:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+  }
+  a {
+    text-decoration: none;
+    color: $dark-color;
+    &:hover {
+      text-decoration: none;
+      color: $dark-color;
+      transition: 0.5s;
+    }
+  }
+}
+.btn-primary {
+  border: transparent;
+  color: $light-color;
+  text-transform: uppercase;
+  background-color: $main-color;
+  &:hover {
+    opacity: 0.8;
+    background-color: $main-color;
+    color: $light-color;
+    transition: 0.5s;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+.link-content {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  & a {
+    color: $main-color;
+    &:after {
+      content: "\279E";
+      font-size: 20px;
+      margin-left: 10px;
+    }
+    &:hover {
+      text-decoration: none;
+      color: $dark-color;
+      transition: 0.5s;
+    }
+  }
+
+}

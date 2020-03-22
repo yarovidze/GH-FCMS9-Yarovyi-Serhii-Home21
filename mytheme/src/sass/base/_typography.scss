@@ -1,0 +1,71 @@
+body {
+  font-size: 16px;
+  font-family: $secondary-font;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+  line-height: 2em;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1.5em;
+  font-family: $main-font;
+}
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1em;
+  font-family: $main-font;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1em;
+  font-family: $main-font;
+
+}
+
+h4 {
+  font-size: 25px;
+  line-height: 2em;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.decoration {
+  &:after {
+    content: ' ';
+    position: relative;
+    display: block;
+    width: 80px;
+    left: calc(50% - 40px);
+    height: 1px;
+    border-bottom: 3px solid $main-color;
+  }
+
+}
+.left-decoration {
+  &:after {
+    content: ' ';
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 1px;
+    border-bottom: 3px solid $main-color;
+    margin-bottom: 1em;
+  }
+}
+.white {
+  color: $light-color;
+}
